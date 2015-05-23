@@ -1,5 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
-<div class="masthead navbar-fixed-top">
+<div class="masthead">
 
 	<nav>
 	<ul class="nav nav-justified">

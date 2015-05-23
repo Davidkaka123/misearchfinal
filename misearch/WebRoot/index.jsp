@@ -16,6 +16,27 @@
 
 		<!-- Custom styles for this template -->
 		<link href="css/bootstrapcss/justified-nav.css" rel="stylesheet">
+
+		<!-- unslider -->
+		<script src="//code.jquery.com/jquery-latest.min.js"></script>
+		<script src="//unslider.com/unslider.js"></script>
+
+		<style type="text/css">
+.banner {
+	position: relative;
+	overflow: auto;
+}
+
+.banner li {
+	list-style: none;
+}
+
+.banner ul li {
+	float: left;
+}
+</style>
+		<link rel="stylesheet"
+			href="http://www.bootcss.com/p/unslider/style.css">
 	</head>
 
 	<body>
@@ -26,19 +47,32 @@
 
 			<!-- Jumbotron -->
 			<div class="jumbotron">
-				<h1>
-					Marketing stuff!
-				</h1>
-				<p class="lead">
-					Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce
-					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-					ut fermentum massa justo sit amet.
-				</p>
-				<p>
-					<a class="btn btn-lg btn-success"
-						href="./Justified Nav Template for Bootstrap_files/Justified Nav Template for Bootstrap.html"
-						role="button">Get started today</a>
-				</p>
+
+				<div class="well well-sm">
+					tuanduijieshao .
+					<div class="panel panel-default">
+						<!-- Default panel contents -->
+						<div class="panel-heading">
+							Panel heading
+						</div>
+						<div class="panel-body">
+							<p>
+								<span class="label label-default">Default</span>
+							</p>
+						</div>
+
+						<!-- Table -->
+						<table class="table">
+							<span class="label label-default">Default</span>
+						</table>
+					</div>
+
+					<span class="label label-primary">Primary</span>
+					<span class="label label-success">Success</span>
+					<span class="label label-info">Info</span>
+					<span class="label label-warning">Warning</span>
+					<span class="label label-danger">Danger</span>
+				</div>
 			</div>
 
 			<!-- Example row of columns -->
