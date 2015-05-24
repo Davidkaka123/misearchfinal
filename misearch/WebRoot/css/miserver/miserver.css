@@ -1,0 +1,47 @@
+@CHARSET "utf-8";
+
+.clearfix:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix { /* hasLayout */
+	zoom: 1;
+}
+
+body {
+	min-height: 1000px;
+	padding-top: 70px;
+}
+.serlist{
+	height: 200px;
+	border:0px solid blue;
+}
+.serinfo{
+	width: 15%;
+	height: 80%;
+	margin-left:5%;
+	margin-top: 10px;
+	border:0px solid red;
+	display: block;
+	float: left;
+	padding:30px;
+}
+.data{
+	padding:20px;
+	}
+.serintro{
+	width:70%;
+	margin-left:5%;
+	margin-top: 10px;
+	height: 80%;
+	border:0px solid green;
+	display: block;
+	float: left;
+	/*height: 80%;
+	line-height: 80%;
+	overflow: hidden;*/
+}
