@@ -1,0 +1,127 @@
+
+body {
+	font: 12px "宋体", "Arial Narrow", HELVETICA;
+	color: #3F3E3C;
+	line-height: 1.5;
+	background: #333;
+}
+
+a {
+	color: #a6a6a6;
+	text-decoration: none;
+	transition: All 1s ease;
+	-webkit-transition: All 1s ease;
+	-moz-transition: All 1s ease;
+	-ms-transition: All 1s ease;
+	-o-transition: All 1s ease;
+}
+
+a:hover {
+	color: #fff;
+}
+
+/* --------------------列表-------------------- */
+.ser {
+	width: 670px;
+	margin: 20px auto;
+	position: relative;
+}
+
+.ser:before {
+	border:1px solid red;
+	width: 100px; 
+	height: 100px; 
+	background: #669;
+}
+
+.sercons {
+	background: #222;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, .1), inset 0px 1px 1px
+		rgba(0, 0, 0, .7);
+	width: 630px;
+	color: #b9b9b9;
+	border-radius: 6px;
+}
+
+.sercons:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0px 0 20px 22px;
+	border-color: transparent transparent transparent #111;
+	position: absolute;
+	left: 630px;
+	top: 40px;
+}  /* 三角形*/
+.serimg {
+	content: "";
+	width: 100px; 
+	height: 100px; 
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	border: 2px solid #333;
+}
+/*.sercons:after {
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;
+	left: 662px;
+	top: 36px;
+	background: #000;
+	border: 2px solid #333;
+	z-index: 10;
+}   圆形 */
+.sercons:hover:after {
+	border-color: #ccc;
+}  /* 鼠标放上去 圆形边框变色 */
+.sercons ul {
+	overflow: hidden;
+	list-style: none;
+}
+
+.sercons h2 {
+	padding: 0 0 0 20px;
+	font: 16px/ 50px "微软雅黑", "Microsoft YaHei", Arial, Helvetica,
+		sans-serif;
+	font-weight: normal;
+}
+
+.sercons img {
+	width: 150px;
+	padding: 4px;
+	float: left;
+	-webkit-transition: All 1s ease;
+	-moz-transition: All 1s ease;
+	-ms-transition: All 1s ease;
+	-o-transition: All 1s ease;
+	border-radius: 4px;
+	margin: 0 20px 20px;
+}
+
+.sercons img:hover {
+	opacity: 0.6;
+}
+
+.sercons p {
+	line-height: 24px;
+	padding: 0 20px 20px;
+	word-wrap: break-word
+}
+
+.sercons:hover {
+	background: #111;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.sercons,.sercons:after {
+	transition: All 1s ease;
+	-webkit-transition: All 1s ease;
+	-moz-transition: All 1s ease;
+	-ms-transition: All 1s ease;
+	-o-transition: All 1s ease;
+}
+/* 过渡缓冲效果 */
